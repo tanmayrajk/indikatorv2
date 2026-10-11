@@ -14,3 +14,11 @@ there's 90 LEDs now, divided in groups of 3, all connected in parallel. each gro
 ![screenshot of the schematics](journal_images/1.png)
 
 **Total time spent: 2h 15m**
+
+# Oct 12th: Power Circuit
+
+yipeee battery stuff, that is, battery, protection board, fuse, switch and the boost thing are all connected now. will work on footprints now.
+
+![screenshot of the schematics](journal_images/2.png)
+
+**Total time spent: 53m**
