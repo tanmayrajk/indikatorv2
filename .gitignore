@@ -1,0 +1,32 @@
+# KiCad backup files
+*.bak
+*~
+_autosave-*
+
+# Simulation outputs
+*.raw
+*.plt
+*.ps
+*.log
+
+# Local settings and caches
+sym-lib-table
+fp-lib-table
+
+# Generated files
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pro-bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# KiCad local history
+.history/
