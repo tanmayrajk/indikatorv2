@@ -22,3 +22,11 @@ yipeee battery stuff, that is, battery, protection board, fuse, switch and the b
 ![screenshot of the schematics](journal_images/2.png)
 
 **Total time spent: 53m**
+
+# Oct 12th: THIS TOOK ME 3 HOURS OH MY GOD BRUH
+
+i wanted to use this red led and found one on digikey but then realised there wasn't a footprint for it so i thought "sure i'll make one" and like it SHOULD be really simple but for some reason my dumass couldn't understand how to get started in the first place. like i couldn't figure out what layers to use and was using rule area to draw the pad ???? anyway yeah i *think* i finished the footprint idk.
+
+![screenshot of the footprint](journal_images/3.png)
+
+**Total time spent: 3h 16m**
