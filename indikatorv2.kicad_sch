@@ -1720,6 +1720,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 255.27 146.05)
@@ -2014,6 +2129,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a1ff3db-ceba-4661-ab9c-62d1d5cb901f")
+	)
+	(junction
+		(at 130.81 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3be8aa5c-14cc-4b80-9c03-34cd03e68036")
 	)
 	(junction
 		(at 281.94 99.06)
@@ -2765,6 +2886,74 @@
 		(color 0 0 0 0)
 		(uuid "ffeb27dd-55bc-40aa-bc75-e5957293f00f")
 	)
+	(no_connect
+		(at 71.12 54.61)
+		(uuid "0166069e-84a6-44b0-8ad8-70294f7b8f54")
+	)
+	(no_connect
+		(at 71.12 39.37)
+		(uuid "06605e23-c1bc-49e9-845a-74163ac1cf40")
+	)
+	(no_connect
+		(at 55.88 22.86)
+		(uuid "0a1ca99a-c33c-41b8-b06d-50dd03e46471")
+	)
+	(no_connect
+		(at 71.12 50.8)
+		(uuid "1048a1e2-a9ed-4946-868d-905942279152")
+	)
+	(no_connect
+		(at 71.12 43.18)
+		(uuid "2195c549-f5e9-4e64-a587-00ebbe5f58bd")
+	)
+	(no_connect
+		(at 52.07 22.86)
+		(uuid "2c2a313c-8c45-4323-bcb7-f28589c525b4")
+	)
+	(no_connect
+		(at 48.26 22.86)
+		(uuid "3fc027c4-5ca2-4f95-b7ac-9d93245501b3")
+	)
+	(no_connect
+		(at 29.21 46.99)
+		(uuid "57b295f0-b753-4ba9-a28c-7abd938c79ca")
+	)
+	(no_connect
+		(at 71.12 35.56)
+		(uuid "925f1c2b-076a-4c39-a480-ec7f84838010")
+	)
+	(no_connect
+		(at 59.69 22.86)
+		(uuid "9f00afa9-a00e-4353-ae2e-ce2fac85d55c")
+	)
+	(no_connect
+		(at 29.21 35.56)
+		(uuid "a72d81c8-96ff-454f-a598-5dd2ddab0af6")
+	)
+	(no_connect
+		(at 29.21 39.37)
+		(uuid "b5bf8b10-d05c-4a67-b11f-ac451d364333")
+	)
+	(no_connect
+		(at 44.45 22.86)
+		(uuid "b72abef8-60d6-47f6-b0e8-9b419e348249")
+	)
+	(no_connect
+		(at 71.12 46.99)
+		(uuid "cfcf4717-6cdf-48b2-a4ed-67ef61c997a8")
+	)
+	(no_connect
+		(at 29.21 43.18)
+		(uuid "d50d16f3-ef6a-43dc-8943-3e604c2a4f15")
+	)
+	(no_connect
+		(at 40.64 22.86)
+		(uuid "d7082dbe-6d92-4f52-84ec-02ebb9ac98b2")
+	)
+	(no_connect
+		(at 71.12 58.42)
+		(uuid "e1695376-c67c-472d-b674-4fc62509460f")
+	)
 	(wire
 		(pts
 			(xy 292.1 132.08) (xy 292.1 135.89)
@@ -3057,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 69.85) (xy 43.18 67.31)
+			(xy 52.07 69.85) (xy 52.07 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5597,7 +5786,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 50.8) (xy 20.32 50.8)
+			(xy 26.67 50.8) (xy 29.21 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5687,7 +5876,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 67.31) (xy 39.37 76.2)
+			(xy 48.26 67.31) (xy 48.26 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5707,7 +5896,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 58.42) (xy 20.32 58.42)
+			(xy 26.67 58.42) (xy 29.21 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7117,7 +7306,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 54.61) (xy 20.32 54.61)
+			(xy 26.67 54.61) (xy 29.21 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7716,7 +7905,7 @@
 		(uuid "344214b7-cbf0-4e93-86ae-a4974a099681")
 	)
 	(label "BOOST_OUT"
-		(at 39.37 76.2 180)
+		(at 48.26 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7736,7 +7925,7 @@
 		(uuid "3f44aa8d-81cf-43e5-9c0e-a3efce5a1f64")
 	)
 	(label "D5"
-		(at 17.78 54.61 0)
+		(at 26.67 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7766,7 +7955,7 @@
 		(uuid "6986dea5-f5d6-4cf7-9c91-39942520f29a")
 	)
 	(label "D6"
-		(at 17.78 58.42 0)
+		(at 26.67 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7816,7 +8005,7 @@
 		(uuid "773382ae-a0bd-4ed7-8fbc-f21ab9877d72")
 	)
 	(label "D4"
-		(at 17.78 50.8 0)
+		(at 26.67 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7989,7 +8178,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 129.54 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8000,7 +8189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.222 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -8071,7 +8260,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 219.71 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8082,7 +8271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.392 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -8526,7 +8715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 182.88 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8597,7 +8786,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 129.54 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8608,7 +8797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.222 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -8770,7 +8959,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 242.57 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8781,7 +8970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 238.252 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -8852,7 +9041,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 106.68 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8863,7 +9052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 102.362 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -9025,7 +9214,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 242.57 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9036,7 +9225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 238.252 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -9198,7 +9387,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 129.54 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9209,7 +9398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.222 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -9826,7 +10015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 332.74 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9837,7 +10026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 328.422 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -9919,7 +10108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "components:FuseHolder_ELCOM_PBF-4"
 			(at 144.272 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -9990,7 +10179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 309.88 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10001,7 +10190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 305.562 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -10254,7 +10443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 196.85 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10265,7 +10454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 192.532 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -10336,7 +10525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 309.88 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10347,7 +10536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 305.562 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -10518,7 +10707,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 217.17 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10680,7 +10869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 152.4 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10691,7 +10880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.082 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -10762,7 +10951,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 219.71 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10773,7 +10962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.392 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -10844,7 +11033,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 242.57 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10855,7 +11044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 238.252 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -11017,7 +11206,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 196.85 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11028,7 +11217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 192.532 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -11099,7 +11288,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 196.85 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11110,7 +11299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 192.532 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -11272,7 +11461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 219.71 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11283,7 +11472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.392 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -11354,7 +11543,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 196.85 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11365,7 +11554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 192.532 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -11436,7 +11625,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 106.68 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11447,7 +11636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 102.362 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -11518,7 +11707,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 287.02 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11529,7 +11718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 282.702 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -11579,7 +11768,7 @@
 	)
 	(symbol
 		(lib_id "Seeed_Studio_XIAO_Series:XIAO-ESP32-C3-SMD")
-		(at 41.91 43.18 0)
+		(at 50.8 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11590,7 +11779,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b4a41e6-2b67-4de3-a16b-347f1b2f93d6")
 		(property "Reference" "U1"
-			(at 45.3233 67.31 0)
+			(at 54.2133 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11601,7 +11790,7 @@
 			)
 		)
 		(property "Value" "XIAO-ESP32-C3-SMD"
-			(at 45.3233 69.85 0)
+			(at 54.2133 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11611,8 +11800,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Seeed_Studio_XIAO_Series:XIAO-ESP32-C3-SMD"
-			(at 3.302 67.564 0)
+		(property "Footprint" "RF_Module:MCU_Seeed_ESP32C3"
+			(at 12.192 67.564 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11623,7 +11812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 38.1 0)
+			(at 41.91 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11634,7 +11823,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 43.18 0)
+			(at 50.8 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11742,7 +11931,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 106.68 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11753,7 +11942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 102.362 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -11915,7 +12104,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 332.74 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11926,7 +12115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 328.422 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -12348,7 +12537,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 287.02 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12359,7 +12548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 282.702 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -12430,7 +12619,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 242.57 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12441,7 +12630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 238.252 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -12603,7 +12792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 242.57 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12614,7 +12803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 238.252 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -12685,7 +12874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 129.54 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12696,7 +12885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.222 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -12767,7 +12956,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 106.68 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12778,7 +12967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 102.362 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -12940,7 +13129,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 287.02 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12951,7 +13140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 282.702 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -13022,7 +13211,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 152.4 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13033,7 +13222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.082 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -13286,7 +13475,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 129.54 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13297,7 +13486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.222 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -13641,7 +13830,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 196.85 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13652,7 +13841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 192.532 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -13905,7 +14094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 196.85 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13916,7 +14105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 192.532 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -13987,7 +14176,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 129.54 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13998,7 +14187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.222 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -14160,7 +14349,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 219.71 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14171,7 +14360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.392 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -14242,7 +14431,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 196.85 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14253,7 +14442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 192.532 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -14324,7 +14513,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 152.4 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14335,7 +14524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.082 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -14406,7 +14595,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 242.57 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14417,7 +14606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 238.252 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -15082,6 +15271,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 130.81 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66208c1e-8e7e-45de-9e80-7bb9f8948b08")
+		(property "Reference" "#FLG01"
+			(at 130.81 197.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 130.81 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 130.81 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddf3aa8c-4188-4a17-9844-1d2038bd6c6e")
+		)
+		(instances
+			(project "indikatorv2"
+				(path "/2add1593-661d-41a8-811f-b5b798956a46"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 295.91 85.09 0)
 		(unit 1)
@@ -15364,7 +15631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 129.54 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15375,7 +15642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.222 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -15537,7 +15804,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 106.68 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15548,7 +15815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 102.362 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -15719,7 +15986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 107.95 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15790,7 +16057,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 287.02 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15801,7 +16068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 282.702 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -15872,7 +16139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 309.88 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15883,7 +16150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 305.562 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -15954,7 +16221,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 219.71 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15965,7 +16232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.392 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -16127,7 +16394,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 106.68 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16138,7 +16405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 102.362 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -16209,7 +16476,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 287.02 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16220,7 +16487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 282.702 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -16291,7 +16558,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 129.54 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16302,7 +16569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.222 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -16555,7 +16822,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 309.88 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16566,7 +16833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 305.562 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -16728,7 +16995,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 152.4 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16739,7 +17006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.082 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -16992,7 +17259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 287.02 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17003,7 +17270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 282.702 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -17074,7 +17341,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 287.02 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17085,7 +17352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 282.702 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -17429,7 +17696,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 332.74 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17440,7 +17707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 328.422 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -17511,7 +17778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 309.88 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17522,7 +17789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 305.562 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -17775,7 +18042,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 196.85 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17786,7 +18053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 192.532 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -17948,7 +18215,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 196.85 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17959,7 +18226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 192.532 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -18212,7 +18479,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 106.68 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18223,7 +18490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 102.362 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -18567,7 +18834,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 309.88 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18578,7 +18845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 305.562 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -18740,7 +19007,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 152.4 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18751,7 +19018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.082 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -18913,7 +19180,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 332.74 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18924,7 +19191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 328.422 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -18995,7 +19262,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 196.85 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19006,7 +19273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 192.532 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -19350,7 +19617,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 242.57 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19361,7 +19628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 238.252 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -19523,7 +19790,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 106.68 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19534,7 +19801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 102.362 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -19688,7 +19955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 332.74 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19699,7 +19966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 328.422 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -19952,7 +20219,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 242.57 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19963,7 +20230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 238.252 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -20125,7 +20392,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 219.71 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20136,7 +20403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.392 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -20285,7 +20552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 309.88 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20296,7 +20563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 305.562 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -20367,7 +20634,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 106.68 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20378,7 +20645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 102.362 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -20449,7 +20716,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 309.88 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20460,7 +20727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 305.562 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -20702,7 +20969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 309.88 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20713,7 +20980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 305.562 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -20854,7 +21121,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 69.85 0)
+		(at 52.07 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20865,7 +21132,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb764214-bb07-434a-917d-0f92625905e9")
 		(property "Reference" "#PWR06"
-			(at 43.18 76.2 0)
+			(at 52.07 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20876,7 +21143,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 74.93 0)
+			(at 52.07 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20886,7 +21153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 69.85 0)
+			(at 52.07 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20897,7 +21164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 69.85 0)
+			(at 52.07 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20908,7 +21175,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 69.85 0)
+			(at 52.07 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21053,7 +21320,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 107.95 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -21215,7 +21482,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 106.68 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21226,7 +21493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 102.362 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -21479,7 +21746,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 332.74 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21490,7 +21757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 328.422 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -21561,7 +21828,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 129.54 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21572,7 +21839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.222 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -21915,7 +22182,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 219.71 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21926,7 +22193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.392 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -22270,7 +22537,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 219.71 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22281,7 +22548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.392 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -22352,7 +22619,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 152.4 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22363,7 +22630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.082 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -22876,7 +23143,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 287.02 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22887,7 +23154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 282.702 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -22958,7 +23225,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 309.88 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22969,7 +23236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 305.562 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -23040,7 +23307,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 287.02 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23051,7 +23318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 282.702 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -23122,7 +23389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 219.71 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23133,7 +23400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.392 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -23204,7 +23471,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 332.74 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23215,7 +23482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 328.422 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -23650,7 +23917,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 129.54 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23661,7 +23928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.222 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -23732,7 +23999,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 152.4 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23743,7 +24010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.082 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -23905,7 +24172,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 332.74 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23916,7 +24183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 328.422 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -23987,7 +24254,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 332.74 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23998,7 +24265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 328.422 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -24069,7 +24336,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 242.57 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24080,7 +24347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 238.252 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -24151,7 +24418,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 152.4 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24162,7 +24429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.082 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -24233,7 +24500,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 152.4 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24244,7 +24511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.082 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -24315,7 +24582,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 219.71 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24326,7 +24593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.392 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -24397,7 +24664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 152.4 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24408,7 +24675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.082 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -24479,7 +24746,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 332.74 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24490,7 +24757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 328.422 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -24644,7 +24911,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "300"
 			(at 242.57 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24655,7 +24922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 238.252 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -24726,7 +24993,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200"
 			(at 287.02 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24737,7 +25004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:UFBGA-64_5x5mm_Layout8x8_P0.5mm"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 282.702 146.05 90)
 			(hide yes)
 			(show_name no)
