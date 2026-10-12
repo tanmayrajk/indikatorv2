@@ -3,11 +3,23 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.475 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "01281191-c425-4a10-b1a6-7500334d4157")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(property "Value" "L128-CLR1003500000"
 		(at 0 2.512 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "7287322f-6403-4b1a-9554-e2005f9d121d")
+		(uuid "25a3342d-1883-47b9-a2b6-f198eb1ee8e2")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "772d110d-0d58-44b7-aa34-8c6ecae82cac")
+		(uuid "c71a86f0-f451-4fb7-8ffc-43ab5caf8367")
 		(effects
 			(font
 				(size 1 1)
@@ -33,23 +45,11 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ee9999cb-c51f-48b5-b67e-f8032deb520c")
+		(uuid "91f4e60f-3c2f-437f-9b42-8fb41da77137")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Reference" "REF**"
-		(at 0 -2.475 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "2c36abd3-69e6-435d-9247-bdc65bd2d444")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
 			)
 		)
 	)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "3c8faf11-2e43-4cb3-882e-6df910ed0589")
+		(uuid "a2cb05b3-fd97-42aa-a9a4-daef58f401e4")
 	)
 	(fp_rect
 		(start -1.75 -1.4)
@@ -75,33 +75,21 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "f4fc93ed-7d7c-46c8-8c79-fed2f4161e67")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 4.012 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "e0a06223-db61-438c-92e1-d5b2239451a8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
+		(uuid "3e040070-7677-475c-b2e9-240a16c15f06")
 	)
 	(pad "1" smd roundrect
 		(at -0.735 0)
 		(size 2.03 1.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07874015748)
-		(uuid "c2f2c963-012f-463c-a654-c1cde22f4298")
+		(uuid "e8587c3d-f7ae-41b0-b430-1e4dae4529ce")
 	)
 	(pad "2" smd roundrect
 		(at 1.265 0)
 		(size 0.97 1.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1030927835)
-		(uuid "aa60d3e0-3fe2-46cd-b61f-45a1f789cbe0")
+		(uuid "5110d564-48cc-4034-aa99-a3fbf7ed30fd")
 	)
 	(embedded_fonts no)
 )

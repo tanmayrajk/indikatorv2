@@ -40,3 +40,11 @@ as the title says, im lowk a genius now. i made two more footprints. replaced th
 ![screenshot of the erc](journal_images/6.png)
 
 **Total time spent: ~2h?**
+
+# Oct 12th: bruh
+
+i was trying to use this plugin called place footprints which would've allowed me to place stuff in a circle but for some reason it didn't work so i was trying to just get it working. which i finally did in the end. i just had to switch to rpm instead of using the appimage. anyway i attached a image of a design i thought for the layout.
+
+![possible design](journal_images/7.png)
+
+**Total time spent: ~1h 30m**
