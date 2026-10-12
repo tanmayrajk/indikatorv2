@@ -30,3 +30,13 @@ i wanted to use this red led and found one on digikey but then realised there wa
 ![screenshot of the footprint](journal_images/3.png)
 
 **Total time spent: 3h 16m**
+
+# Oct 12th: wait im lowk a genius now
+
+as the title says, im lowk a genius now. i made two more footprints. replaced that bumass led footprint with a MUCH better one that would allow me to use it for any color. created a footprint for the fuse asw. assigned the rest of the footprints and passed erc too. pcb'ing time!
+
+![screenshot of the led footprint](journal_images/4.png)
+![screenshot of the fuse footprint](journal_images/5.png)
+![screenshot of the erc](journal_images/6.png)
+
+**Total time spent: ~2h?**
